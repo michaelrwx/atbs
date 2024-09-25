@@ -51,5 +51,37 @@ example += 1
 print("This " + str(example) + " is cool as fuck because it was acquired in a more efficient way!")
 # -= subtraction, *= multiplication, /= division, %= modular
 
+#index() method shows you the value of an item within a list
+print(supplies.index('flamethrowers'))
+
+fur = ['cat', 'dog', 'bat']
+fur.append('capybara')
+print(fur)
+
+#Append puts something at the END of the list. Insert() puts where you specify
+fur.insert(1, 'fox')
+print(fur)
+
+#remove deletes a value in a list
+print('Fuck fox')
+fur.remove('fox')
+print(fur)
+
+#Sort organizes values in a list. For numbers it sorts by numeric value. For strings it sorts ASCIIbetical
+
+numbers = [-100000, 8999423, -23409872345, 1, 6, 349587, -234234, 5345345]
+print(numbers)
+print("This looks like shit, let's sort it")
+numbers.sort()
+print(numbers)
+
+#You can't sort values and strings in one.
+#oh and reverse() reverses whats in the list
+
+
+
+
+
+
 
 
